@@ -5,7 +5,7 @@ import pytz
 
 app = Flask(__name__)
 
-# Configure the database connection (replace 'your_database_uri' with your actual PostgreSQL URI)
+
 app.config['SQLALCHEMY_DATABASE_URI'] = 'your_database_uri'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
